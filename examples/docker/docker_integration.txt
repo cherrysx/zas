@@ -34,7 +34,7 @@ The image:tag that are needed for docker to identify which image has
 to be used to run the container has to be specified in the submission
 environment as LSB_DOCKER_IMAGE. e.g in bash shell:
 
-export  LSB_DOCKER_IMAGE=centos:app
+export  LSB_DOCKER_CONTAINER=centos:app
 
 This variable has to be set either by the user or by the tool administrator.
 
